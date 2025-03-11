@@ -4,6 +4,8 @@ try:
 except:
     os.system('pip install requests')
 import requests
+import os
+os.system('git pull')
 bit = platform.architecture()[0]
 if bit == '64bit':
     from MHB64 import main

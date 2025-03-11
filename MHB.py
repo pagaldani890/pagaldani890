@@ -11,7 +11,7 @@ if bit == '64bit':
     from MHB64 import main
     main()
 elif bit == '32bit':
-    from MHB import main
+    from MHB32 import main
     main()
 else:
     print('\n YOUR DEVICE IS NOT SUPPORT THIS TOOL')
